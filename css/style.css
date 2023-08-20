@@ -188,10 +188,23 @@ body .section:nth-child(3) {
 	width: 1158px;
 }
 
+.feature-items {
+	position: relative;
+	display: flex;
+	width: 264px;
+	flex-direction: column;
+	gap: 8px;
+}
+
 .feature-items-title {
 	color: #2E2F42;
 	font-weight: 500;
 	font-size: 20px;
+}
+
+.feature-items-title,
+.feature-items p {
+	margin: 0px;
 }
 
 .section-3-header {
